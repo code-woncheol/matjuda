@@ -1,6 +1,8 @@
 footer div ul {
   list-style: none;
   display: flex;
+  
+  
 }
 
 footer div ul li {
@@ -17,4 +19,60 @@ footer div ul li {
   font-size: 12px;
   text-align: center;
   margin-top: 0px;
+}
+.hidden {
+  display: none;
+}
+
+.today-date{
+  text-align: center;
+}
+.menu-list{
+  list-style: none;
+  
+  padding: 8px;
+}
+
+article{
+  border: 1px solid #000;
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  height: 350px;
+}
+
+/* section{
+text-align: center;
+min-height: 100%;
+	position: relative;
+} */
+section {
+  text-align: center;
+  min-height: 100%;
+  position: relative;
+  display: flex; /* display: block에서 변경 */
+  flex-direction: row;
+  justify-content: center; /* 자식 요소 가로 중앙 정렬 추가 */
+  
+}
+.footer{
+  width: 100%;
+   margin: 0px auto;  /* 상하 여백 20px, 가로 가운데 정렬 */
+   bottom: 0px;
+	position: absolute;
+	height: 10rem;
+
+}
+.footerul{
+  display: inline-flex;
+}
+.footer *{
+  text-align: center;
+  padding: 8px;
+}
+
+.menu-img{
+  width: 180px;
+  height: 180px;
+  border: 1px solid #000;
 }

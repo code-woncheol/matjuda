@@ -9,7 +9,7 @@
 </details>
 <details>
 <summary>원철이가 할거</summary>
-1주차: json 파싱 사용자에게 보여지게, <del>구상한 거 README에 적기</del>, <del>notion 만들기</del>, <del>mac환경 설정</del>
+1주차: <del>json 파싱 사용자에게 보여지게</del>, <del>구상한 거 README에 적기</del>, <del>notion 만들기</del>, <del>mac환경 설정</del>
 </details>
 <details>
 <summary>성현이가 할거</summary>
