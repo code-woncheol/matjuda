@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hidden Element</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<p id="myParagraph" class="hh">a</p>
+
+<script>
+    // 특정 시간대 설정
+    var targetTime = new Date(); // 현재 시간을 가져옵니다.
+    var currentHour = targetTime.getHours(); // 현재 시간의 시간을 가져옵니다.
+
+    // 시간이 9시부터 11시 사이인 경우에만 해당 요소를 보여줍니다.
+    if (currentHour >= 9 && currentHour <= 11) {
+        document.getElementById("myParagraph").classList.remove("hidden");
+    } else {
+        document.getElementById("myParagraph").classList.add("hidden");
+    }
+</script>
+
+</body>
+</html>
