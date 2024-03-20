@@ -1,0 +1,55 @@
+/* 기본 스타일 */
+#menu-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+/* 코너 넘버 스타일 */
+#menu-card h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+/* 메뉴 이미지 스타일 */
+#menu-card .menu-img-box {
+  text-align: center;
+}
+
+#menu-card .menu-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* 메뉴 목록 스타일 */
+#menu-card .menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu-card .menu-list li {
+  padding: 5px 0;
+  font-size: 16px;
+}
+
+/* 메뉴 소진 여부 스타일 */
+#menu-card .is-sold-out {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* 추가 스타일 */
+/* ... */
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  #menu-card {
+    width: 100%;
+  }
+}
