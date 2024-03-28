@@ -1,14 +1,14 @@
 import React from "react";
 import MenuCard from "./components/MenuCard/MenuCard";
-import data from './data/dataCleaning'
+import data from './data/DataCleaning'
+import WholeMenuCard from './components/WholeMenuCards'
 
-function App() {
-  return (
+function App(){
+  return(
     <div>
-      <MenuCard menu={data.corner1} />
-
+      <WholeMenuCard/>
     </div>
-  );
+  )
 }
 
 export default App;
