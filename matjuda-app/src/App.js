@@ -1,16 +1,12 @@
 import React from "react";
 import MenuCard from "./components/MenuCard/MenuCard";
-import MenuData from "./data/DataCleaning.js";
+import data from './data/dataCleaning'
 
 function App() {
   return (
     <div>
-      {<MenuCard />}
-      {<MenuCard />}
-      {<MenuCard />}
-      {<MenuCard />}
-      {<MenuCard />}
-      {<MenuCard />}
+      <MenuCard menu={data.corner1} />
+
     </div>
   );
 }
